@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cindy O. Lee - Author & Blogger</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .book-section {
+            margin-top: 20px;
+        }
+        .book {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+        .email-signup {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Welcome to Cindy O. Lee's Blog</h1>
+
+    <div class="book-section">
+        <div class="book">
+            <h2>Recent Children's Book</h2>
+            <img src="childrens_book.jpg" alt="Children's Book Image">
+            <p>Description of the book goes here...</p>
+        </div>
+
+        <div class="book">
+            <h2>Recent Coloring Book</h2>
+            <img src="coloring_book.jpg" alt="Coloring Book Image">
+            <p>Description of the coloring book goes here...</p>
+        </div>
+
+        <div class="book">
+            <h2>Recent Activity Book</h2>
+            <img src="activity_book.jpg" alt="Activity Book Image">
+            <p>Description of the activity book goes here...</p>
+        </div>
+
+        <div class="book">
+            <h2>Recent Journal</h2>
+            <img src="journal.jpg" alt="Journal Image">
+            <p>Description of the journal goes here...</p>
+        </div>
+    </div>
+
+    <div class="email-signup">
+        <h2>Sign up for Email Updates</h2>
+        <form action="email-subscribe.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
